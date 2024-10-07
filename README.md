@@ -30,9 +30,13 @@ La première étape consiste à créer un fichier de configuration nommé base.p
 Ensuite, une classe connexion est créée pour établir la connexion à la base de données. Cette classe lit les informations du fichier base.properties et les utilise pour créer une connexion à la base de données via JDBC. Elle contient des méthodes statiques pour ouvrir le fichier de configuration, charger le driver JDBC, et se connecter à la base de données à l'aide de DriverManager.getConnection(). Cette approche permet de réutiliser facilement la connexion à travers l'application sans avoir à reconfigurer les paramètres à chaque fois.
 ## 3. Création des classes Personne, Manager, et Développeur:
 Trois classes principales sont définies pour modéliser les employés :
+
 -Personne :La classe de base qui représente un employé avec des attributs comme l'identifiant, le nom, et le salaire.
+
 -Manager : Hérite de la classe Personne et inclut des méthodes pour gérer une liste de développeurs sous sa responsabilité.
+
 -Développeur : Hérite également de Personne et conserve les caractéristiques de base tout en adaptant la méthode d'affichage.
+
 Ces classes permettent de représenter les employés sous forme d'objets avec les relations hiérarchiques entre managers et développeurs.
 ## 4. Création d’une interface IDao:
 Une interface générique IDao est définie pour standardiser les opérations de manipulation des données. Elle contient des méthodes abstraites comme create, update, delete, getById, et getAll, qui facilitent les opérations CRUD. Cette interface sert de contrat pour les classes de service, leur permettant de manipuler les objets (managers et développeurs) de manière cohérente avec une abstraction des détails de l'implémentation des requêtes SQL.
