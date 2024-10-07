@@ -14,6 +14,7 @@ Eclipse nebeans
 ## Fonctionnalités:
 1. Connexion à la base de données : La classe connexion gère la connexion à la base de données à l'aide d'un fichier base.properties contenant les informations de configuration.
 2. Modélisation des employés :
+   
 -Classe Personne pour les informations de base des employés (id, nom, salaire).
 
 -Classe Manager pour représenter un manager, incluant une liste de développeurs.
