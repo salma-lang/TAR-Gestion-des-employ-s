@@ -46,3 +46,8 @@ Ces deux classes implémentent l'interface IDao pour fournir des fonctionnalité
 Une classe Entreprise est développée pour tester la fonctionnalité CRUD (Create, Read, Update, Delete) des services. Dans cette classe, des objets Manager et Développeur sont créés, modifiés, et affichés. La méthode afficherHierarchie() permet de représenter la hiérarchie des employés, en partant du directeur général jusqu'aux développeurs, tout en respectant les relations de gestion. Cette classe permet de valider que les opérations sur la base de données fonctionnent correctement et que la hiérarchie des employés est bien gérée.
 ## 7. Conclusion et validation:
 Après l'exécution des tests dans la classe Entreprise, les résultats sont vérifiés, à la fois dans netbeans et dans phpMyAdmin, pour s'assurer que les enregistrements sont correctement créés et affichés. Le programme est capable de gérer les relations hiérarchiques entre les managers et les développeurs, et d'exécuter les opérations CRUD avec succès.
+## Demonstration video: 
+
+
+Uploading 2024-10-07-16-35-26_SR0Qn5GJ.mp4…
+
