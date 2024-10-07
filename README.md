@@ -9,7 +9,7 @@ JDBC
 
 MySQL (via phpMyAdmin)
 
-Eclipse nebeans
+Eclipse netbeans
 
 ## Fonctionnalités:
 1. Connexion à la base de données : La classe connexion gère la connexion à la base de données à l'aide d'un fichier base.properties contenant les informations de configuration.
