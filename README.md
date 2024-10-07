@@ -16,11 +16,12 @@ Eclipse nebeans
 2. Modélisation des employés : -Classe Personne pour les informations de base des employés (id, nom, salaire).
    
                                -Classe Manager pour représenter un manager, incluant une liste de développeurs.
+   
 
                                -Classe Developpeur pour représenter les développeurs.
 
-3. Opérations CRUD : Utilisation des interfaces DAO pour gérer les opérations CRUD sur les objets Manager et Developpeur.
-4. Hiérarchie des employés : L'application permet de représenter la relation hiérarchique entre les managers et les développeurs.
+4. Opérations CRUD : Utilisation des interfaces DAO pour gérer les opérations CRUD sur les objets Manager et Developpeur.
+5. Hiérarchie des employés : L'application permet de représenter la relation hiérarchique entre les managers et les développeurs.
 
 ## Étapes d'installation:
 ## 1. Création d’un fichier properties nommé base:
